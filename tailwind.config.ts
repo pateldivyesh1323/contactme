@@ -7,7 +7,18 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      "anta": ["Anta", "sans-serif"],
+      "slab": ["Roboto Slab", "serif"]
+    },
     extend: {
+      colors: {
+        "orange-cust": "#FF5001",
+        "white-cust": "#EDF5E1",
+        "cyan-cust": "#5CDB95",
+        "choco-cust": "#907163",
+        "blue-cust": "#379683",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
